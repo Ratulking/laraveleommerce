@@ -34,7 +34,7 @@
 
     <section style="margin-top:22px;">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;">
-            <h2 style="margin:0;">Featured Products</h2>
+            <h2 style="margin:0;">Featured Products ( {{ count($featuredProducts) }} )</h2>
             <a href="/products" style="text-decoration:none;">View all →</a>
         </div>
 
